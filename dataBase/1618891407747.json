@@ -2,8 +2,15 @@
   {
     "name": "Marcelo",
     "email": "marcelogt1977@hotmail.com",
-    "categories": "",
-    "phone": "5555555",
+    "categories": [
+      "família",
+      "trabalho",
+      "amigos"
+    ],
+    "phone": [
+      "5555555",
+      "33333333"
+    ],
     "address": [
       {
         "cep": "13566-220",
