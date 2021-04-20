@@ -1,21 +1,27 @@
 [
   {
-    "name": "Marcelo",
-    "email": "marcelogt1977@hotmail.com",
+    "name": "ALEXANDRE VILEFORT HOSTALACIO",
+    "email": "alexandre.vilefot@gmail.com",
     "categories": [
       "família",
       "trabalho",
       "amigos"
     ],
-    "phone": [
-      "5555555",
-      "33333333"
-    ],
+    "phone": "16991675819",
     "address": [
+      {
+        "cep": "14403-102",
+        "Logradouro": "",
+        "Número": "4444444",
+        "Complemento": "",
+        "Bairro": "Prolongamento Jardim Lima",
+        "Localidade": "Franca",
+        "Estado": "SP"
+      },
       {
         "cep": "13566-220",
         "Logradouro": "",
-        "Número": "333",
+        "Número": "1111",
         "Complemento": "de 2602/2603 ao fim",
         "Bairro": "Vila Costa do Sol",
         "Localidade": "São Carlos",
@@ -24,20 +30,21 @@
     ]
   },
   {
-    "name": "Mariana Inacio Faciroli",
-    "email": "mione_marianainacio@hotmail.com",
+    "name": "Samuel",
+    "email": "samuel@gmail.com",
     "categories": [
+      "família",
       "trabalho",
       "amigos"
     ],
     "phone": [
-      "124124123412",
-      "123412341234"
+      "16991675819",
+      "555555555"
     ],
     "address": [
       {
         "cep": "13566-220",
-        "Logradouro": "",
+        "Logradouro": "Rua Rafael de Abreu Sampaio Vidal",
         "Número": "",
         "Complemento": "de 2602/2603 ao fim",
         "Bairro": "Vila Costa do Sol",
@@ -47,21 +54,94 @@
     ]
   },
   {
+    "name": "Severino",
+    "email": "",
+    "phone": "997345055",
+    "categories": "",
+    "address": [
+      ""
+    ]
+  },
+  {
+    "name": "Taxi",
+    "email": "",
+    "phone": "37028212",
+    "categories": "",
+    "address": [
+      ""
+    ]
+  },
+  {
+    "name": "Adriana",
+    "email": "adrianabahiadacosta@yahoo.com.br",
+    "phone": "",
+    "categories": "",
+    "address": [
+      ""
+    ]
+  },
+  {
+    "name": "Calvin Campos",
+    "email": "calvincampos@hotmail.com",
+    "phone": "",
+    "categories": "",
+    "address": [
+      ""
+    ]
+  },
+  {
+    "name": "Gabriela",
+    "email": "gabrielavivan@hotmail.com",
+    "phone": "",
+    "categories": "",
+    "address": [
+      ""
+    ]
+  },
+  {
+    "name": "MARCOS LUIS",
+    "email": "marcosjuniorbatera@hotmail.com",
+    "phone": "",
+    "categories": "",
+    "address": [
+      ""
+    ]
+  },
+  {
+    "name": "Marcelo",
+    "email": "marcelogt1977@hotmail.com",
+    "phone": "",
+    "categories": "",
+    "address": [
+      ""
+    ]
+  },
+  {
+    "name": "Mariana Inacio Faciroli",
+    "email": "mione_marianainacio@hotmail.com",
+    "phone": "",
+    "categories": "",
+    "address": [
+      ""
+    ]
+  },
+  {
     "name": "Márcio de Jesus Soares",
     "email": "marciojs@dm.ufscar.br",
+    "phone": "",
     "categories": "",
-    "phone": "33333333",
-    "address": []
+    "address": [
+      ""
+    ]
   },
   {
     "name": "Otávio Deperon",
     "email": "otavio_deperon@hotmail.com",
+    "phone": "",
     "categories": "",
-    "phone": [
-      "55555555",
-      "4444444"
-    ],
-    "address": []
+    "address": [
+      ""
+    ]
   },
   {
     "name": "ROX LAN Fabricio - FMM",
@@ -289,15 +369,6 @@
     ]
   },
   {
-    "name": "Grayce Araujo",
-    "email": "grayceclasses@gmail.com",
-    "phone": "",
-    "categories": "",
-    "address": [
-      ""
-    ]
-  },
-  {
     "name": "Paulinha [Frajola]",
     "email": "inhagracinha@hotmail.com",
     "phone": "",
@@ -318,15 +389,6 @@
   {
     "name": "Carol Batista",
     "email": "czr_sba@hotmail.com",
-    "phone": "",
-    "categories": "",
-    "address": [
-      ""
-    ]
-  },
-  {
-    "name": "junior rossato rossato",
-    "email": "junin_rossato@hotmail.com",
     "phone": "",
     "categories": "",
     "address": [
@@ -406,15 +468,6 @@
     ]
   },
   {
-    "name": "Aviner Kitamura",
-    "email": "samuraikitamura@gmail.com",
-    "phone": "",
-    "categories": "",
-    "address": [
-      ""
-    ]
-  },
-  {
     "name": "Fabricio",
     "email": "fabriciosalt@yahoo.com.br",
     "phone": "",
@@ -462,42 +515,6 @@
   {
     "name": "Antonio Hamad Junior",
     "email": "hamadcrf1456@hotmail.com",
-    "phone": "",
-    "categories": "",
-    "address": [
-      ""
-    ]
-  },
-  {
-    "name": "Paulo Sergio Pizani",
-    "email": "pizani@df.ufscar.br",
-    "phone": "",
-    "categories": "",
-    "address": [
-      ""
-    ]
-  },
-  {
-    "name": "Gabriela Aímola Vivan",
-    "email": "gabrielaaimola@gmail.com",
-    "phone": "",
-    "categories": "",
-    "address": [
-      ""
-    ]
-  },
-  {
-    "name": "Lucas Kalango",
-    "email": "lcs_ms10@hotmail.com",
-    "phone": "",
-    "categories": "",
-    "address": [
-      ""
-    ]
-  },
-  {
-    "name": "Ítalo Johnny",
-    "email": "italojohnnydosanjos@gmail.com",
     "phone": "",
     "categories": "",
     "address": [
@@ -561,6 +578,78 @@
   {
     "name": "Marina ઇઉ",
     "email": "marinamatos90@hotmail.com",
+    "phone": "",
+    "categories": "",
+    "address": [
+      ""
+    ]
+  },
+  {
+    "name": "Marcella Hermeto",
+    "email": "marcella.engquimica@gmail.com",
+    "phone": "",
+    "categories": "",
+    "address": [
+      ""
+    ]
+  },
+  {
+    "name": "HuGo VaNdRé",
+    "email": "hu_vandre@hotmail.com",
+    "phone": "",
+    "categories": "",
+    "address": [
+      ""
+    ]
+  },
+  {
+    "name": "Vinícius Prado Silva",
+    "email": "vpradosilva@gmail.com",
+    "phone": "",
+    "categories": "",
+    "address": [
+      ""
+    ]
+  },
+  {
+    "name": "Kairo Vieira Santos",
+    "email": "kairo_tadeu@hotmail.com",
+    "phone": "",
+    "categories": "",
+    "address": [
+      ""
+    ]
+  },
+  {
+    "name": "Renan Lopes Borges",
+    "email": "renan.lobo@gmail.com",
+    "phone": "1692158877",
+    "categories": "",
+    "address": [
+      ""
+    ]
+  },
+  {
+    "name": "Renan",
+    "email": "",
+    "phone": "02116992158877",
+    "categories": "",
+    "address": [
+      ""
+    ]
+  },
+  {
+    "name": "Thiago",
+    "email": "thiago_jordao07@hotmail.com",
+    "phone": "",
+    "categories": "",
+    "address": [
+      ""
+    ]
+  },
+  {
+    "name": "Celso Jorge Villas Boas",
+    "email": "villasboas.cj@gmail.com",
     "phone": "",
     "categories": "",
     "address": [
