@@ -67,10 +67,7 @@ app.use('/agenda', express.static(path.join(__dirname, 'public')));
 app.get('/', checkAuthenticated, (req, res) => {
     res.redirect('/agenda');
     let contactsList = require(`./dataBase/${req.user.id}.json`);
-    // usersContactsList.push = {
-    //     userId: req.user.id,
-    //     contacts: contactsList
-    // }
+    
     req.user.contacts = contactsList;
 });
 
@@ -205,7 +202,6 @@ app.get('/import', async (req, res) => {
     );
 
     const { tokens } = await oauth2Client.getToken(code);
-    //const { tokens } = oauth2Client.getToken(code);
     console.log(tokens);
     res.redirect('/agenda')
 
@@ -245,17 +241,6 @@ app.get('/import', async (req, res) => {
                     newData.categories = '';
                     newData.address = [''];
 
-                    // let newAddress = new Object();
-
-                    // newAddress.cep = '';
-                    // newAddress.Logradouro = '';
-                    // newAddress.Número = '';
-                    // newAddress.Complemento = '';
-                    // newAddress.Bairro = '';
-                    // newAddress.Localidade = '';
-                    // newAddress.Estado = '';
-                    // addressList.push(newAddress);
-
                     console.log(newData.name, newData.email, newData.phone);
                     let isInContacts = false;
                     for (let cont of req.user.contacts){
@@ -268,7 +253,6 @@ app.get('/import', async (req, res) => {
         }
     })
 });
-
 //####Fim Importar contatos
 
 app.listen(app.get('port'), () => {
