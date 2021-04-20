@@ -3,12 +3,12 @@
     "name": "Marcelo",
     "email": "marcelogt1977@hotmail.com",
     "categories": "",
-    "phone": "",
+    "phone": "5555555",
     "address": [
       {
         "cep": "13566-220",
         "Logradouro": "",
-        "Número": "",
+        "Número": "333",
         "Complemento": "de 2602/2603 ao fim",
         "Bairro": "Vila Costa do Sol",
         "Localidade": "São Carlos",
@@ -42,20 +42,19 @@
   {
     "name": "Márcio de Jesus Soares",
     "email": "marciojs@dm.ufscar.br",
-    "phone": "",
     "categories": "",
-    "address": [
-      ""
-    ]
+    "phone": "33333333",
+    "address": []
   },
   {
     "name": "Otávio Deperon",
     "email": "otavio_deperon@hotmail.com",
-    "phone": "",
     "categories": "",
-    "address": [
-      ""
-    ]
+    "phone": [
+      "55555555",
+      "4444444"
+    ],
+    "address": []
   },
   {
     "name": "ROX LAN Fabricio - FMM",
