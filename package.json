@@ -1,13 +1,13 @@
 {
   "name": "desafio",
   "version": "1.0.0",
-  "description": "versão 2 funcionalidades básicas sem problema",
-  "main": "passport-config.js",
+  "description": "v0.9 Primeiro Protótipo",
+  "main": "server-login.js",
   "scripts": {
     "devStart": "nodemon server-login.js",
     "start": "node server-login.js"
   },
-  "author": "",
+  "author": "Alexandre Vilefort",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
