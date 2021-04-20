@@ -61,6 +61,9 @@ $(document).ready(function () {
                         <!--<button class="btn btn-dark btn-sm ml-4" id="rmvAddressBtn">-</button>-->
                         </div>  
                     <br>
+                    <div id="divAddress">
+                        <div id="divAddress1"></div>
+                    </div>
                     <br>
                     <br>
                     <button type="submit" class="form-control btn btn-dark" id="btnSalvar">Salvar</button>
@@ -71,7 +74,7 @@ $(document).ready(function () {
 
         //criar botão para gerar novas entradas para telefone
         let count = 2;
-        let countAddress = 2;
+        let countAddress = 1;
 
         addInputAddress(1);
 
@@ -107,15 +110,26 @@ $(document).ready(function () {
             count++;
         });
 
+
         $('#addAddressBtn').on('click', function (e) {
             e.preventDefault();
+            countAddress++;
             let divAddress = $("#divAddress");
             let newAddressInput = `<br class="pularRmvBtn_">
             <label for="newAddressInp"><strong>Endereço ${countAddress}</strong></label>`
             divAddress.append(newAddressInput);
-            addInputAddress(countAddress)
-            countAddress++;
+            addInputAddress(countAddress,'')
         });
+
+        // $('#addAddressBtn').on('click', function (e) {
+        //     e.preventDefault();
+        //     let divAddress = $("#divAddress");
+        //     let newAddressInput = `<br class="pularRmvBtn_">
+        //     <label for="newAddressInp"><strong>Endereço ${countAddress}</strong></label>`
+        //     divAddress.append(newAddressInput);
+        //     addInputAddress(countAddress)
+        //     countAddress++;
+        // });
 
         //Customizar o submit do forms
         $('#btnSalvar').on('click', function (e) {
